@@ -28,6 +28,9 @@ The heuristic function uses Manhattan distance, which calculates the absolute di
 
 
 ## Screenshots
+![1](https://github.com/user-attachments/assets/d6a313a2-a8de-48e1-a477-1ba0e232ff33)
+
+![maze_img](https://github.com/user-attachments/assets/c6d74bd4-41dc-41cc-955f-9547cdecede8)
 
 
 ## Conclusion
