@@ -51,8 +51,8 @@ def a_star(maze_instance):
     return path
 
 if __name__ == '__main__':
-    num_rows = int(input("Enter the number of rows: "))
-    num_cols = int(input("Enter the number of columns: "))
+    num_rows = int(input("Enter the number of rows of maze: "))
+    num_cols = int(input("Enter the number of columns of maze: "))
     maze_instance = maze(num_rows, num_cols)
     maze_instance.CreateMaze()
     solution_path = a_star(maze_instance)
