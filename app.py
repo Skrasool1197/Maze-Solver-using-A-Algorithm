@@ -57,7 +57,6 @@ if __name__ == '__main__':
     maze_instance.CreateMaze()
     solution_path = a_star(maze_instance)
 
-    # Creating agent with footprints, smaller arrows, and different colors
     bot = agent(maze_instance, footprints=True, shape='arrow', color='blue', filled=True)
     maze_instance.tracePath({bot: solution_path}, delay=100)
     
